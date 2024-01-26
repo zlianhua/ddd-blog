@@ -15,6 +15,7 @@ In contrast, "shameless" architecture breaks down the grandeur into accessible, 
 <p align="center">
     <img src="../images/ShamelessBusinessComponents.jpg" alt="ShamelessBusinessComponents.jpg" width="500"/>
 </p>
+
 ## Applying to Business Components
 
 Drawing parallels to software architecture, especially in DDD, we explore how breaking down monolithic systems into smaller, more manageable components can enhance clarity and efficiency. These "shameless" components, akin to microservices, offer a more direct and straightforward approach to handling business logic.
