@@ -13,7 +13,7 @@ Traditional architectures often emphasize grand facades, creating a deliberate d
 ### Shameless Architecture
 In contrast, "shameless" architecture breaks down the grandeur into accessible, smaller elements. This style promotes inclusivity and simplicity, allowing for more direct interaction and understanding.
 <p align="center">
-    <img src="../images/ShamelessBusinessComponents" alt="ShamelessBusinessComponents.png" width="500"/>
+    <img src="../images/ShamelessBusinessComponents" alt="ShamelessBusinessComponents.jpg" width="500"/>
 </p>
 ## Applying to Business Components
 
