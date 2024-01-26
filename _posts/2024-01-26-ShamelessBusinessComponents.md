@@ -7,7 +7,7 @@ In the realm of software architecture, the concept of Domain-Driven Design (DDD)
 ### Face-Keeping Architecture
 Traditional architectures often emphasize grand facades, creating a deliberate distance between the structure and its observers. This approach, while powerful, can create a sense of exclusion and complexity.
 
-![](images/FaceKeepingArchitecture.png)
+![avatar](images/FaceKeepingArchitecture.png)
 
 ### Shameless Architecture
 In contrast, "shameless" architecture breaks down the grandeur into accessible, smaller elements. This style promotes inclusivity and simplicity, allowing for more direct interaction and understanding.
