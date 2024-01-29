@@ -1,3 +1,9 @@
+---
+layout: post
+title: "The Shameless Business Components"
+date: 2024-01-24
+---
+
 # The Shameless Business Components: A New Perspective in DDD
 
 In the realm of software architecture, the concept of Domain-Driven Design (DDD) has been a beacon for managing complex systems. However, as we dive deeper into this approach, we encounter the fascinating idea of "Shameless Business Components". Inspired by the architectural philosophy of Feng Guochuan, who contrasts "face-keeping" buildings with "shameless" architecture, this concept finds its unique place in DDD.
@@ -6,15 +12,11 @@ In the realm of software architecture, the concept of Domain-Driven Design (DDD)
 
 ### Face-Keeping Architecture
 Traditional architectures often emphasize grand facades, creating a deliberate distance between the structure and its observers. This approach, while powerful, can create a sense of exclusion and complexity.
-<p align="center">
-    <img src="./ddd-blog/images/FaceKeepingArchitecture.png" alt="FaceKeepingArchitecture.png" width="500"/>
-</p>
+`![FaceKeepingArchitecture image]({{ "/assets/FaceKeepingArchitecture.jpg" | relative_url }})`
 
 ### Shameless Architecture
 In contrast, "shameless" architecture breaks down the grandeur into accessible, smaller elements. This style promotes inclusivity and simplicity, allowing for more direct interaction and understanding.
-<p align="center">
-    <img src="./ddd-blog/images/ShamelessBusinessComponents.jpg" alt="ShamelessBusinessComponents.jpg" width="500"/>
-</p>
+`![ShamelessBusinessComponents image]({{ "/assets/ShamelessBusinessComponents.jpg" | relative_url }})`
 
 ## Applying to Business Components
 
