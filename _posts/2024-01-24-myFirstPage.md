@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Introduction to Domain-Driven Design (DDD)"
 date: 2024-01-24
 ---
