@@ -1,6 +1,5 @@
 theme: minima
 title: Talking about Domain-Driven Design
-subtitle: Here you'll find some Domain-Driven Design topics
 author: Levon Zhang
-
+description: Introduction to DDD (Domain Driven Modeling) knowledge and modeling techniques
 comments: true
