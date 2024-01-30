@@ -39,12 +39,3 @@ The primary motivation behind the emergence of DDD was to bridge the gap that fr
 - Use ubiquitous language in software development to maintain consistency with the business.
 
 By adopting Domain-Driven Design, software development teams can better understand and address business complexities, leading to more relevant, flexible, and maintainable software systems.
-
-<script src="https://utteranc.es/client.js"
-        repo="zlianhua/ddd-blog"
-        issue-term="title"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
