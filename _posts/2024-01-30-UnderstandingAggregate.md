@@ -32,37 +32,8 @@ Consider an e-commerce platform where customers place orders for products. Here'
 
 #### PlantUML Class Diagram
 
-```plantuml
-@startuml
-class Customer {
-  - customerId: String
-  - name: String
-  + createOrder(): Order
-}
+![Aggregate image]({{ "/assets/image/aggregateSample.png" | relative_url }})
 
-class Order {
-  - orderId: String
-  - orderItems: List<OrderItem>
-  + addItem(product: Product, quantity: int): void
-  + getTotal(): Money
-}
-
-class OrderItem {
-  - productId: String
-  - quantity: int
-  - price: Money
-}
-
-class Product {
-  - productId: String
-  - price: Money
-}
-
-Customer "1" -- "0..*" Order
-Order "1" -- "*" OrderItem
-OrderItem "*" -- "1" Product
-@enduml
-```
 #### Implementation in Python
 
 ```python
