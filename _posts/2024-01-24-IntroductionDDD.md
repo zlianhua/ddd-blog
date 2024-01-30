@@ -2,6 +2,8 @@
 layout: post
 title: "Introduction to Domain-Driven Design (DDD)"
 date: 2024-01-24
+comments: true
+author: Levon Zhang
 ---
 # Introduction to Domain-Driven Design (DDD)
 
@@ -39,5 +41,3 @@ The primary motivation behind the emergence of DDD was to bridge the gap that fr
 - Use ubiquitous language in software development to maintain consistency with the business.
 
 By adopting Domain-Driven Design, software development teams can better understand and address business complexities, leading to more relevant, flexible, and maintainable software systems.
-
-comments: true
