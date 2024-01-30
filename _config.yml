@@ -1,7 +1,6 @@
 theme: minima
 title: Talking about Domain-Driven Design
 author: Levon Zhang
-description: Introduction to DDD (Domain Driven Modeling) knowledge and modeling techniques
 
 # navbar-links:
 #   About Me: "aboutme"
@@ -26,3 +25,10 @@ utterances:
   issue-term: title   # Mapping between blog posts and GitHub issues
   theme: github-light # Utterances theme
   label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
+social-network-links:
+  email: "zlianhua@msn.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: zlianhua
+  twitter: "@zlianhua"
+  youtube: "@zhanglianhua7014"
