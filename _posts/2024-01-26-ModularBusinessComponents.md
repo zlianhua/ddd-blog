@@ -6,8 +6,6 @@ comments: true
 author: Levon Zhang
 ---
 
-# The Modular Business Components: A New Perspective in DDD
-
 In the realm of software architecture, the concept of Domain-Driven Design (DDD) has been a beacon for managing complex systems. However, as we dive deeper into this approach, we encounter the fascinating idea of "Modular Business Components". Inspired by the architectural philosophy of Feng Guochuan, who contrasts "Unified" buildings with "Modular" architecture, this concept finds its unique place in DDD.
 
 ## Exploring the Architectural Analogy
