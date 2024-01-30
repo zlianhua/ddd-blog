@@ -1,3 +1,36 @@
 theme: minima
 title: Talking about Domain-Driven Design
 author: Levon Zhang
+
+navbar-links:
+  About Me: "aboutme"
+  Author's home: "https://github.com/zlianhua"
+
+################
+# --- Logo --- #
+################
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/logo.png"
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+# Select the social network links that you want to show in the footer.
+# You can change the order that they show up on the page by changing the order here.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "zlianhua@msn.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: zlianhua
+  github: https://github.com/zlianhua
+  twitter: "@zlianhua"
+  youtube: "@zhanglianhua7014"
+
+  post_search: true
+
+  navbar-var-length: false
+
+  
