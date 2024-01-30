@@ -29,3 +29,5 @@ Shifting from large, complex interfaces to smaller, focused ones not only simpli
 By adopting object-oriented principles and ensuring high cohesion and low coupling within components, we achieve a more natural and manageable structure in our designs.
 
 In our journey through Domain-Driven Design, we'll delve deeper into these "Modular" components, exploring their structure, functionality, and the benefits they bring to software architecture.
+
+comments: true
