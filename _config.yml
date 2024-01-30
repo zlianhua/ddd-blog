@@ -3,16 +3,16 @@ title: Talking about Domain-Driven Design
 author: Levon Zhang
 description: Introduction to DDD (Domain Driven Modeling) knowledge and modeling techniques
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+# navbar-links:
+#   About Me: "aboutme"
+#   Resources:
+#     - Beautiful Jekyll: "https://beautifuljekyll.com"
+#     - Learn markdown: "https://www.markdowntutorial.com/"
+#   Author's home: "https://deanattali.com"
 
-################
-# --- Logo --- #
-################
+# ################
+# # --- Logo --- #
+# ################
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
