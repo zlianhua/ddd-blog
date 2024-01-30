@@ -29,8 +29,8 @@ social-network-links:
   twitter: "@zlianhua"
   youtube: "@zhanglianhua7014"
 
-  post_search: true
+post_search: true
 
-  navbar-var-length: false
+navbar-var-length: false
 
   
