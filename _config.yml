@@ -1,5 +1,6 @@
 theme: minima
 title: Talking about Domain-Driven Design
+subtitle: Here you'll find some Domain-Driven Design topics
 author: Levon Zhang
 
 comments: true
@@ -36,7 +37,7 @@ post_search: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "DDD,Domain,Driven,Design,Model Design"
+keywords: "DDD, Domain, Driven, Design, Model Design"
 
 ######################################
 # --- Colours / background image --- #
