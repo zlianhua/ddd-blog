@@ -3,8 +3,26 @@ title: Talking about Domain-Driven Design
 author: Levon Zhang
 description: Introduction to DDD (Domain Driven Modeling) knowledge and modeling techniques
 
-#utterances:
-repository: "zlianhua/ddd-blog"
-issue-term: title   # Mapping between blog posts and GitHub issues
-theme: github-light # Utterances theme
-label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+
+################
+# --- Logo --- #
+################
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/logo.png"
+
+####################
+# --- Comments --- #
+####################
+utterances:
+  repository: "zlianhua/ddd-blog"
+  issue-term: title   # Mapping between blog posts and GitHub issues
+  theme: github-light # Utterances theme
+  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
