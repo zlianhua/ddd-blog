@@ -2,7 +2,6 @@
 layout: post
 title: "Introduction to Domain-Driven Design (DDD)"
 date: 2024-01-24
-comments: true
 author: Levon Zhang
 ---
 Domain-Driven Design (DDD) is a software development approach that emphasizes a deep focus on the core business domain. This methodology was first articulated by Eric Evans in his 2003 book "Domain-Driven Design: Tackling Complexity in the Heart of Software". DDD emerged to address the disconnect often found between complex software systems and the business logic they are intended to support.
