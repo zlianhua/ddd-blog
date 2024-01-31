@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exploring Value Objects in Domain-Driven Design"
-date: 2024-01-31
+date: 2024-01-26
 author: Levon Zhang
 ---
 
@@ -29,7 +29,7 @@ In an e-commerce system, `OrderItem` can be modeled as a Value Object, represent
 
 ## PlantUML Class Diagram
 
-![ValueObject image]({{ "/assets/image/ValueObject.png" | relative_url }})
+![ValueObject image]({{ "/assets/image/valueObject.png" | relative_url }})
 
 ## Implementation in Python
 

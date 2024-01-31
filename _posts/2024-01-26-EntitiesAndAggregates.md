@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Diving into Domain-Driven Design: Entities and Aggregates"
-date: 2024-01-31
+date: 2024-01-26
 author: Levon Zhang
 ---
 
