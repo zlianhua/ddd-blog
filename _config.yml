@@ -1,4 +1,9 @@
-theme: minima
+remote_theme: daattali/beautiful-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
 title: Talking about Domain-Driven Design
 author: Levon Zhang
 
@@ -19,7 +24,7 @@ post_search: true
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-#avatar: "/assets/logo.png"
+avatar: "/assets/logo.png"
 
 ####################
 # --- Comments --- #
