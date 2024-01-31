@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Modular Business Components"
-date: 2024-01-26
+date: 2024-01-24
 author: Levon Zhang
 ---
 
