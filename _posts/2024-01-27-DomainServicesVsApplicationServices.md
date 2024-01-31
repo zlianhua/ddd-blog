@@ -72,4 +72,6 @@ class OrderApplicationService:
 
 In this example, OrderService (a domain service) handles the business logic, while OrderApplicationService (an application service) orchestrates the order placement process, interfacing with the domain and infrastructure layers.
 
+---
+
 Understanding the distinction between domain and application services is crucial for structuring DDD-based applications effectively, ensuring that business logic and application operations are well-organized and maintainable.

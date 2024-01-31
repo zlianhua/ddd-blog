@@ -69,4 +69,6 @@ In this scenario, 'Order' is the Aggregate Root that controls and ensures the in
 
 By understanding and applying these concepts, developers can create more robust and business-aligned software systems.
 
+---
+
 Entities and Aggregates form the backbone of Domain-Driven Design, enabling developers to model real-world business scenarios effectively.

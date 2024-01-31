@@ -69,4 +69,6 @@ print(f"Total price: {order_item.calculate_total_price().amount} {order_item.cal
 
 In this example, the calculate_total_price method in OrderItem calculates the total price of the item without causing any side effects. It multiplies the quantity by the price and returns a new Money object, leaving the original OrderItem unchanged. This method clearly showcases the business intent and functionality of a Value Object in DDD.
 
+---
+
 By enhancing Value Objects with meaningful, side-effect free methods, we can express business intentions more clearly and maintain the integrity of the domain model in DDD.
