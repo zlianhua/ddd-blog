@@ -2,12 +2,13 @@ theme: minima
 title: Talking about Domain-Driven Design
 author: Levon Zhang
 
-# navbar-links:
-#   About Me: "aboutme"
+navbar-links:
+  # About Me: "aboutme"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
+  ❤ Support: "https://github.com/sponsors/zlianhua"
 
 # Add a search button to the navbar
 post_search: true
