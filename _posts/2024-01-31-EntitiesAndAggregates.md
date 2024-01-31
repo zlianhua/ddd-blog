@@ -35,6 +35,7 @@ In an e-commerce system, we can consider 'Order' as an Aggregate Root. Here, 'Cu
 
 #### Implementation in Python
 
+```python
 class Customer:
     def __init__(self, customer_id, name):
         self.customer_id = customer_id
@@ -54,17 +55,18 @@ class OrderItem:
         self.product_id = product_id
         self.quantity = quantity
         self.price = price
+```
 
 # Example Usage
+```python
 customer = Customer("C123", "John Doe")
 order = Order("O456", customer)
 order_item = OrderItem("P789", 2, 19.99)
 order.add_order_item(order_item)
+```
 
 In this scenario, 'Order' is the Aggregate Root that controls and ensures the integrity of 'OrderItem' objects. The 'Customer' entity is related to 'Order', but it is not part of the same Aggregate.
 
 By understanding and applying these concepts, developers can create more robust and business-aligned software systems.
 
 Entities and Aggregates form the backbone of Domain-Driven Design, enabling developers to model real-world business scenarios effectively.
-
-This blog post covers the essential concepts of Entity and Aggregate in DDD with an e-commerce example, including a class diagram and Python code for better understanding.

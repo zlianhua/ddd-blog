@@ -70,12 +70,14 @@ class Product:
 ```
 
 # Example Usage
+
+```python
 customer = Customer("123", "John Doe")
 order = customer.create_order()
 product = Product("prod-001", 100)
 order.add_item(product, 2)
 print(order.get_total())
-
+```
 In this scenario, Order is the Aggregate Root. It ensures that all changes to OrderItem objects are consistent with the business rules of the e-commerce domain. This design simplifies interactions with the domain model and maintains data integrity.
 
 With the Aggregate pattern, DDD enables us to design complex systems in a more structured and maintainable way. By focusing on business rules and data integrity, Aggregates play a vital role in building effective domain models.
