@@ -44,10 +44,11 @@ In this example, placing an order generates an OrderPlaced event, which is store
 Event Sourcing is an approach where state changes in the domain are stored as a sequence of events. Instead of storing the current state, the system saves the historical events that led to that state.
 
 ### Benefits of Event Sourcing
-Complete Audit Trail: Maintains a history of all changes.
-Replay Events: Ability to reconstruct past states by replaying events.
-Complex Event Processing: Facilitates the processing of complex business rules based on sequences of events.
-Applying Event Sourcing in DDD
+- **Complete Audit Trail**: Maintains a history of all changes.
+- **Replay Events**: Ability to reconstruct past states by replaying events.
+- **Complex Event Processing**: Facilitates the processing of complex business rules based on sequences of events.
+
+### Applying Event Sourcing in DDD
 In DDD, Event Sourcing can be used to persist Aggregates by storing their state changes as events. This allows for rebuilding the Aggregate's state from its event history.
 
 ### Example: Order Management System
@@ -70,5 +71,7 @@ class OrderHistory:
         return order
 ```
 In this example, OrderHistory captures the order-related events, allowing the system to reconstruct the Order's state at any point in time.
+
+---
 
 Domain Events and Event Sourcing provide powerful mechanisms in DDD to model complex business processes, ensuring that all changes are captured and can be replayed to reconstruct the domain state at any point in time.
