@@ -29,29 +29,8 @@ In an e-commerce system, `OrderItem` can be modeled as a Value Object, represent
 
 ## PlantUML Class Diagram
 
-```plantuml
-@startuml
-class Order {
-  - orderId: String
-  - orderItems: List<OrderItem>
-  + addOrderItem(orderItem: OrderItem): void
-}
+![ValueObject image]({{ "/assets/image/ValueObject.png" | relative_url }})
 
-class OrderItem {
-  - productId: String
-  - quantity: int
-  - price: Money
-  + calculateTotalPrice(): Money
-}
-
-class Money {
-  - amount: float
-  - currency: String
-}
-
-Order "1" -- "*" OrderItem
-@enduml
-```
 ## Implementation in Python
 
 ```python
@@ -77,8 +56,11 @@ class Money:
     def __init__(self, amount, currency):
         self.amount = amount
         self.currency = currency
+```
 
 # Example Usage
+
+```python
 order = Order("O123")
 order_item = OrderItem("P456", 2, Money(19.99, "USD"))
 order.add_order_item(order_item)
