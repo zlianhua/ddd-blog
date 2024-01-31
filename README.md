@@ -25,5 +25,24 @@ Thank you for being here! Let's embark on this exciting journey of learning and 
 
 ---
 
-Happy reading and happy coding! 🎉
+## 🌟 Support Us 🌟
 
+Our journey in exploring Domain-Driven Design is fueled by passion and the desire to share valuable knowledge with the community. If you find our content helpful and wish to support us, here are a few ways you can do so:
+
+- **Spread the Word**: Share our blog with peers, colleagues, and anyone interested in software development.
+- **Feedback**: Your feedback helps us grow. Let us know what you think!
+- **Become a Sponsor**: You can sponsor us through our [GitHub Sponsors page](https://github.com/sponsors/zlianhua)(). As a token of appreciation, sponsors will be acknowledged in this README file.
+
+### Our Valued Sponsors
+
+We are incredibly grateful for any support, and we're excited to welcome our first sponsors. Here we will proudly acknowledge our sponsors:
+
+- [🌟 Be the first to sponsor and get your name here! 🌟]
+- [Sponsor Name]
+- [And More...]
+
+Your support means the world to us. Together, let's continue to explore the depths of Domain-Driven Design and share valuable insights with the software development community!
+
+Thank you for your support and encouragement. Let's make a difference in the world of software development together!
+
+Happy coding! 🎉
