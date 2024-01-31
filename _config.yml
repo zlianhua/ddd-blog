@@ -15,6 +15,9 @@ navbar-links:
 #   Author's home: "https://deanattali.com"
   ❤ Support: "https://github.com/sponsors/zlianhua"
 
+url-pretty: "❤ Support"
+url-canonical: https://github.com/sponsors/zlianhua
+
 # Add a search button to the navbar
 post_search: true
 
