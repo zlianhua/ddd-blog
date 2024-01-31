@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding the Aggregate in Domain-Driven Design"
-date: 2024-01-24
+date: 2024-01-30
 author: Levon Zhang
 ---
 
