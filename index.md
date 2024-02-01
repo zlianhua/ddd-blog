@@ -8,7 +8,5 @@ Welcome to the world of Domain-Driven Design (DDD) - a journey into the heart of
 
 Welcome to my curated selection of products! 🌟 If you make a purchase through the links below, it helps support my blog. Thank you for your support! 🙏
 
-![Domain-Driven Design: Tackling Complexity in the Heart of Software](https://m.media-amazon.com/images/I/41ni9tGguyL._SY445_SX342_.jpg) 
-[![Implementing Domain-Driven Design](https://m.media-amazon.com/images/I/51V8VDgMhdL._SY445_SX342_.jpg)](https://amzn.to/4838koC)
-[![Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy](https://m.media-amazon.com/images/I/819gVKYN7HL._SY466_.jpg)](https://amzn.to/47YNAyc)
+|![Domain-Driven Design: Tackling Complexity in the Heart of Software](https://m.media-amazon.com/images/I/41ni9tGguyL._SY445_SX342_.jpg) |[![Implementing Domain-Driven Design](https://m.media-amazon.com/images/I/51V8VDgMhdL._SY445_SX342_.jpg)](https://amzn.to/4838koC) |[![Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy](https://m.media-amazon.com/images/I/819gVKYN7HL._SY466_.jpg)](https://amzn.to/47YNAyc)|
 
