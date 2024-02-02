@@ -7,7 +7,49 @@ Explore the world of Domain-Driven Design (DDD), where we tackle software comple
 <br><br>
 Thank you for exploring my curated product selection! 🌟 By purchasing through the links provided below, you'll be supporting my blog. I appreciate your support! 🙏
 <br><br>
-<table>
+<div id="product-ad">
+  <!-- Products will be displayed here -->
+</div>
+
+<script>
+  const products = [
+  { link: "https://amzn.to/47X281t", img: "https://m.media-amazon.com/images/I/41ni9tGguyL._SY445_SX342_.jpg", alt: "Domain-Driven Design: Tackling Complexity in the Heart of Software" },
+  { link: "https://amzn.to/4838koC", img: "https://m.media-amazon.com/images/I/51V8VDgMhdL._SY445_SX342_.jpg", alt: "Implementing Domain-Driven Design" },
+  { link: "https://amzn.to/47YNAyc", img: "https://m.media-amazon.com/images/I/819gVKYN7HL._SY466_.jpg", alt: "Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy" },
+  { link: "https://amzn.to/491ut8m", img: "https://m.media-amazon.com/images/I/71luJtLOAPL._SX522_.jpg", alt: "Nugget Countertop Ice Maker" },
+  { link: "https://amzn.to/3usQihM", img: "https://m.media-amazon.com/images/I/61XT-WF0dAL._AC_SX522_PIbundle-2,TopRight,0,0_SH20_.jpg", alt: "HMCITY Solar Lights Outdoor 120 LED with Lights Reflector" },
+  { link: "https://amzn.to/3OsRTer", img: "https://m.media-amazon.com/images/I/5125qEzLmuL._AC_SX679_.jpg", alt: "Crock-Pot 7 Quart Oval Manual Slow Cooker" },
+  // Add more products as needed
+];
+
+function displayProducts() {
+  let displayedProducts = products.slice(0, 3); // Initially display the first three products
+
+  const container = document.getElementById('product-ad');
+  container.innerHTML = ''; // Clear the container
+
+  displayedProducts.forEach(product => {
+    const productElement = `
+      <div style="display: inline-block; width: 32%; padding: 1%;">
+        <a href="${product.link}">
+          <img src="${product.img}" alt="${product.alt}" style="width: 100%;">
+        </a>
+      </div>
+    `;
+    container.innerHTML += productElement;
+  });
+
+  // Rotate products
+  setInterval(() => {
+    products.push(products.shift()); // Move the first product to the end
+    displayProducts(); // Recursively display the next set of products
+  }, 5000); // Adjust the time as needed
+}
+
+displayProducts();
+</script>
+
+<!-- <table>
     <tr>
       <td>
         <a href="https://amzn.to/47X281t">
@@ -26,4 +68,4 @@ Thank you for exploring my curated product selection! 🌟 By purchasing through
       </td>
     </tr>
   </table>
-  <br>
+  <br> -->
