@@ -48,6 +48,7 @@ function updateProductDisplay() {
   }
   currentIndex = (currentIndex + 1) % products.length;
 }
+updateProductDisplay();
 
 setInterval(updateProductDisplay, 8000); // Rotate products every 5 seconds
 </script>
