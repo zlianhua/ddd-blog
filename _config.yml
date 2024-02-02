@@ -93,6 +93,16 @@ feed_show_excerpt: true
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
 
+# Output options (more information on Jekyll's site)
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -119,15 +129,6 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-
-#################################################################################
-# --- You don't need to touch anything below here (but you can if you want) --- #
-#################################################################################
-
-# Output options (more information on Jekyll's site)
-# Pagination
-permalink: /:year-:month-:day-:title/
-paginate: 5
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
 gtag: "G-248BJDGJSV"
