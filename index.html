@@ -7,11 +7,19 @@ Explore the world of Domain-Driven Design (DDD), where we tackle software comple
 <br><br>
 Thank you for exploring my curated product selection! 🌟 By purchasing through the links provided below, you'll be supporting my blog. I appreciate your support! 🙏
 <br><br>
-<div id="product-ad">
-  <div id="product-1" class="product"></div>
-  <div id="product-2" class="product"></div>
-  <div id="product-3" class="product"></div>
-</div>
+<table>
+  <tr>
+    <td >
+      <div id="product-1"></div>
+    </td>
+    <td>
+      <div id="product-2"></div>
+    </td>
+    <td>
+      <div id="product-3"></div>
+    </td>
+  </tr>
+</table>
 
 <script>
   const products = [
@@ -41,7 +49,7 @@ function updateProductDisplay() {
   currentIndex = (currentIndex + 1) % products.length;
 }
 
-setInterval(updateProductDisplay, 5000); // Rotate products every 5 seconds
+setInterval(updateProductDisplay, 8000); // Rotate products every 5 seconds
 </script>
 
 <!-- <table>
