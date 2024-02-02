@@ -1,6 +1,9 @@
 ---
 layout: home
 title: ''
+pagination: 
+  enabled: true
+  collection: posts
 ---
 [![Hits](https://hits.sh/ddd-talking.com.svg?style=for-the-badge&label=Total%20number%20of%20visits)](https://hits.sh/ddd-talking.com/)
 
