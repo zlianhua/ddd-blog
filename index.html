@@ -8,7 +8,9 @@ Explore the world of Domain-Driven Design (DDD), where we tackle software comple
 Thank you for exploring my curated product selection! 🌟 By purchasing through the links provided below, you'll be supporting my blog. I appreciate your support! 🙏
 <br><br>
 <div id="product-ad">
-  <!-- Products will be displayed here -->
+  <div id="product-1" class="product"></div>
+  <div id="product-2" class="product"></div>
+  <div id="product-3" class="product"></div>
 </div>
 
 <script>
@@ -22,31 +24,24 @@ Thank you for exploring my curated product selection! 🌟 By purchasing through
   // Add more products as needed
 ];
 
-function displayProducts() {
-  let displayedProducts = products.slice(0, 3); // Initially display the first three products
+let currentIndex = 0;
 
-  const container = document.getElementById('product-ad');
-  container.innerHTML = ''; // Clear the container
-
-  displayedProducts.forEach(product => {
-    const productElement = `
-      <div style="display: inline-block; width: 32%; padding: 1%;">
-        <a href="${product.link}">
-          <img src="${product.img}" alt="${product.alt}" style="width: 100%;">
-        </a>
-      </div>
+function updateProductDisplay() {
+  for (let i = 0; i < 3; i++) {
+    const productIndex = (currentIndex + i) % products.length;
+    const product = products[productIndex];
+    const productDiv = document.getElementById(`product-${i+1}`);
+    
+    productDiv.innerHTML = `
+      <a href="${product.link}">
+        <img src="${product.img}" alt="${product.alt}" style="width:100%;">
+      </a>
     `;
-    container.innerHTML += productElement;
-  });
-
-  // Rotate products
-  setInterval(() => {
-    products.push(products.shift()); // Move the first product to the end
-    displayProducts(); // Recursively display the next set of products
-  }, 3000); // Adjust the time as needed
+  }
+  currentIndex = (currentIndex + 1) % products.length;
 }
 
-displayProducts();
+setInterval(updateProductDisplay, 5000); // Rotate products every 5 seconds
 </script>
 
 <!-- <table>
