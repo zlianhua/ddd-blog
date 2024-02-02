@@ -126,8 +126,8 @@ exclude:
 
 # Output options (more information on Jekyll's site)
 # Pagination
+permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_path: /page:num/
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
 gtag: "G-248BJDGJSV"
