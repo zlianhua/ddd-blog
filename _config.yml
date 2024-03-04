@@ -3,6 +3,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 title: Talking about Domain-Driven Design
 author: Levon Zhang
