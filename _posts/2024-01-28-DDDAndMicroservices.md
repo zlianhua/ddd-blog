@@ -3,6 +3,7 @@ layout: post
 title: "Applying Domain-Driven Design Principles to Microservices Architecture"
 date: 2024-01-28
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) provides a robust framework for designing and implementing complex software systems. When applied to microservices architecture, DDD can help in creating services that are well-defined, loosely coupled, and aligned with business domains. Let's explore how DDD principles can guide the design and implementation of microservices.

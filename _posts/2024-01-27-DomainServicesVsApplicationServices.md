@@ -3,6 +3,7 @@ layout: post
 title: "Domain Services vs Application Services in Domain-Driven Design"
 date: 2024-01-27
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) introduces the concepts of Domain Services and Application Services to handle complex business logic and application operations. Understanding the distinction and roles of these services is key to applying DDD effectively.

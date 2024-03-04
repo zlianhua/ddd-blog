@@ -3,6 +3,7 @@ layout: post
 title: "Integrating Domain-Driven Design with Agile Methodologies"
 date: 2024-01-29
 author: Levon Zhang
+sitemap: true
 ---
 
 The synergy between Domain-Driven Design (DDD) and Agile methodologies can greatly enhance the software development process. This post explores how the principles of DDD can be integrated into Agile practices to create more effective and adaptable software solutions.

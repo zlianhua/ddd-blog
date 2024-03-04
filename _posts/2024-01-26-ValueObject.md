@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Value Objects in Domain-Driven Design"
 date: 2024-01-26
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) introduces the concept of Value Objects, which are integral in modeling domain logic efficiently. Let's dive into what Value Objects are and their significance in DDD.

@@ -3,6 +3,7 @@ layout: post
 title: "Understanding the Aggregate in Domain-Driven Design"
 date: 2024-01-25
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) offers a powerful way of managing complex domain logic by breaking it down into more manageable parts. One such part is the Aggregate, a pattern that plays a crucial role in maintaining the integrity of data and enforcing business rules.
