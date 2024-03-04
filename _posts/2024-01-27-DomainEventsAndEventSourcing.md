@@ -3,6 +3,7 @@ layout: post
 title: "Understanding Domain Events and Event Sourcing in Domain-Driven Design"
 date: 2024-01-27
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) offers powerful tools to model complex business domains. Among these tools, Domain Events and Event Sourcing play a crucial role in capturing, communicating, and persisting changes within the domain. Let's dive into these concepts and explore how they can be applied.

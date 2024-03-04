@@ -3,6 +3,7 @@ layout: post
 title: "Diving into Domain-Driven Design: Entities and Aggregates"
 date: 2024-01-26
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) introduces several key concepts that are vital for understanding and implementing business logic in software development. Among these, Entities and Aggregates, particularly Root Entities, play a crucial role.

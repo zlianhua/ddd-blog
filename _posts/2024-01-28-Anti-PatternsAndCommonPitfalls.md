@@ -3,6 +3,7 @@ layout: post
 title: "Domain-Driven Design Anti-Patterns and Common Pitfalls"
 date: 2024-01-28
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) offers a structured approach to software development that focuses on the complexity of the domain. However, like any methodology, there are common pitfalls and anti-patterns that teams should be aware of. This post explores some of these challenges and how to avoid them.

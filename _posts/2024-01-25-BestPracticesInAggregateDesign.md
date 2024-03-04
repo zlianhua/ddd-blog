@@ -3,6 +3,7 @@ layout: post
 title: "Best Practices in Aggregate Design in Domain-Driven Design"
 date: 2024-01-25
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) revolves around accurately modeling the domain to solve business problems effectively. One of the key building blocks in DDD is the Aggregate. In this post, we'll explore best practices in designing Aggregates, with practical examples to illustrate these concepts.

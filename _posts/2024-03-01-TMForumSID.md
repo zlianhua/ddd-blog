@@ -3,6 +3,7 @@ layout: post
 title: "Embracing Evolution: TM Forum's Information Framework at the Forefront"
 date: 2024-03-01
 author: Levon Zhang
+sitemap: true
 ---
 
 In the telecommunications industry, rapid technological advancements and customer demands shape the market. The TM Forum's Information Framework, formerly known as SID (Shared Information/Data model), has evolved into an essential toolkit for Communications Service Providers (CSPs). This framework aims to navigate the complexities of information architecture with agility, interoperability, and efficiency.

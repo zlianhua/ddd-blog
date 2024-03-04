@@ -3,6 +3,7 @@ layout: post
 title: "Case Study: Applying Domain-Driven Design in the Real World"
 date: 2024-01-29
 author: Levon Zhang
+sitemap: true
 ---
 
 Domain-Driven Design (DDD) is more than just a set of principles and patterns; it's a way of thinking that can dramatically improve how software aligns with business objectives. In this post, we'll explore a real-world case study of DDD in action and extract valuable insights and lessons learned.
