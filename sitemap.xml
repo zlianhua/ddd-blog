@@ -6,11 +6,65 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://www.ddd-talking.com/</loc>
   <lastmod>2024-02-01T04:33:15+00:00</lastmod>
 </url>
-
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-24-IntroductionDDD</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-24-ModularBusinessComponents</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-25-BestPracticesInAggregateDesign</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-25-UnderstandingAggregate</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-26-EntitiesAndAggregates</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-26-ValueObject</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-27-DomainEventsAndEventSourcing</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-27-DomainServicesVsApplicationServices</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-28-Anti-PatternsAndCommonPitfalls</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-28-DDDAndMicroservices</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-29-DDDAndAgileMethodologies</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-01-29-ApplyingDDD</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-02-04-SIDvsDDD</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.ddd-talking.com/2024-03-01-TMForumSID</loc>
+  <lastmod>2024-03-04T04:33:15+00:00</lastmod>
+</url>
 
 </urlset>
