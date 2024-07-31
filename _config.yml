@@ -5,7 +5,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-title: Talking about Domain-Driven Design
+title: Domain-Driven Design Tool and Blogs
 author: Levon Zhang
 
 navbar-links:
