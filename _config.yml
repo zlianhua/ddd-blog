@@ -9,8 +9,7 @@ title: Talking about Domain-Driven Design
 author: Levon Zhang
 
 navbar-links:
-  Design Model: "modelDesign"
-  # About Me: "aboutme"
+# About Me: "aboutme"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
