@@ -9,15 +9,16 @@ title: Domain-Driven Design Tool and Blogs
 author: Levon Zhang
 
 navbar-links:
+  DocTransLate: "docTranslate"
 # About Me: "aboutme"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
-  ❤ Support: "https://github.com/sponsors/zlianhua"
+#   ❤ Support: "https://github.com/sponsors/zlianhua"
 
-url-pretty: "❤ Support"
-url-canonical: https://github.com/sponsors/zlianhua
+# url-pretty: "❤ Support"
+# url-canonical: https://github.com/sponsors/zlianhua
 
 # Add a search button to the navbar
 post_search: true
@@ -120,6 +121,7 @@ defaults:
     values:
       layout: "page"
       comments: true  # add comments to all blog pages
+      social-share: true # add social media sharing buttons to all blog posts
 
 # Exclude these files from production site
 exclude:
