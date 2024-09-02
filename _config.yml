@@ -5,7 +5,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-title: Domain-Driven Design Tool and Blogs
+title: ModelWise! Domain-Driven Design Tool and Blogs
 author: Levon Zhang
 
 navbar-links:
@@ -48,7 +48,7 @@ social-network-links:
   youtube: "@zhanglianhua7014"
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "DDD,Domain-Driven Design,Model,SID"
+keywords: "DDD,Domain-Driven Design,Model,SID,Translator"
 
 ######################################
 # --- Colours / background image --- #
