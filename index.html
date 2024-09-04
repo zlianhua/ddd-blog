@@ -5,74 +5,8 @@ layout: home
 <meta name="description" content="Free to Use! Design your domain models effortlessly with our AI-powered tool! Generate PlantUML diagrams automatically from natural language descriptions. Perfect for software developers and architects.">
 <meta name="keywords" content="domain model, AI, artificial intelligence, PlantUML, diagram, generator, automated design, software development, architecture, UML, Translator">
 
-<div class="menu">
-  <button class="menu-button active" data-target="model-generator">Domain Model Generator</button>
-  <button class="menu-button" data-target="word-translator">Word Document Translator</button>
-  <button class="menu-button" data-target="sequence-diagram-generator">Sequence Diagram Generator (Coming Soon)</button>
-</div>
-
-<div id="content">
-  <iframe id="model-generator" src="https://model-generator-ebon.vercel.app/" title="Domain Model Generator" style="display: block;"></iframe>
-  <iframe id="word-translator" src="https://doctranslatepy-cbsb5sdfaa8b74yy5rtr6e.streamlit.app/?embedded=true" title="Word Document Translator" style="display: none;"></iframe>
-  <div id="sequence-diagram-generator" style="display: none;">
-    <p>Coming Soon!</p>
-  </div>
-</div>
-
-
 <p class="support-message">
   Found this tool helpful? Consider clicking on the ads or supporting our work 
   through our <a href="https://github.com/sponsors/zlianhua">GitHub Sponsors page</a>.
 </p>
 🌟Explore the world of Domain-Driven Design (DDD), where we tackle software complexity through coding precision. This blog unravels DDD's core concepts like Bounded Contexts and Ubiquitous Language, offering insights for both new and experienced developers. Dive into articles, case studies, and tips to master DDD in modern software development. Join our journey to decode DDD's intricacies together!
-<style>
-  .menu {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-
-  .menu-button {
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #eee;
-    cursor: pointer;
-  }
-
-  .menu-button.active {
-    background-color: #ddd;
-  }
-
-  #content iframe {
-      width: 100%;
-      height: 800px;
-      border: none;
-  }
-
-  .support-message {
-      text-align: center;
-      margin-bottom: 1rem;
-  }
-</style>
-<script>
-  const menuButtons = document.querySelectorAll('.menu-button');
-  const contentDivs = document.querySelectorAll('#content > div, #content > iframe');
-
-  menuButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const targetId = button.dataset.target;
-
-      // 移除所有按钮的 active 类
-      menuButtons.forEach(btn => btn.classList.remove('active'));
-      // 添加 active 类到当前按钮
-      button.classList.add('active');
-
-      // 隐藏所有内容 div
-      contentDivs.forEach(div => div.style.display = 'none');
-      // 显示目标内容 div
-      document.getElementById(targetId).style.display = 'block';
-    });
-  });
-</script>
