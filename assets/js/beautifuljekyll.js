@@ -6,27 +6,27 @@ let BeautifulJekyllJS = {
   numImgs : null,
 
   init : function() {
-    setTimeout(BeautifulJekyllJS.initNavbar, 10);
+    // setTimeout(BeautifulJekyllJS.initNavbar, 10);
 
     // Shorten the navbar after scrolling a little bit down
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar").addClass("top-nav-short");
-        } else {
-            $(".navbar").removeClass("top-nav-short");
-        }
-    });
+    // $(window).scroll(function() {
+    //     if ($(".navbar").offset().top > 50) {
+    //         $(".navbar").addClass("top-nav-short");
+    //     } else {
+    //         $(".navbar").removeClass("top-nav-short");
+    //     }
+    // });
 
     // On mobile, hide the avatar when expanding the navbar menu
-    $('#main-navbar').on('show.bs.collapse', function () {
-      $(".navbar").addClass("top-nav-expanded");
-    });
-    $('#main-navbar').on('hidden.bs.collapse', function () {
-      $(".navbar").removeClass("top-nav-expanded");
-    });
+    // $('#main-navbar').on('show.bs.collapse', function () {
+    //   $(".navbar").addClass("top-nav-expanded");
+    // });
+    // $('#main-navbar').on('hidden.bs.collapse', function () {
+    //   $(".navbar").removeClass("top-nav-expanded");
+    // });
 
     // show the big header image
-    BeautifulJekyllJS.initImgs();
+    // BeautifulJekyllJS.initImgs();
 
     BeautifulJekyllJS.initSearch();
   },
