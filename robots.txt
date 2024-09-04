@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /ads.txt
-Disallow: /ads
-
-Sitemap: https://ddd-talking.com/sitemap.xml
