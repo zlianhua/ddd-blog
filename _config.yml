@@ -48,7 +48,7 @@ social-network-links:
   youtube: "@zhanglianhua7014"
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "DDD,Domain-Driven Design,Model,SID,Translator"
+keywords: "DDD,Domain-Driven Design,Model,SID"
 
 ######################################
 # --- Colours / background image --- #
@@ -135,4 +135,4 @@ exclude:
   - docs/
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-gtag: "G-248BJDGJSV"
+# gtag: "G-248BJDGJSV"
